@@ -20,6 +20,8 @@ export interface ProfileInterface {
     linkedinUrl: string;
     gabUrl: string;
     mindsUrl: string;
+    twitchUrl: string;
+    discordUrl: string;
     subscriberGoal: number;
     btcGoal: number;
     ethGoal: number;
@@ -50,6 +52,8 @@ export const ProfileModel = new Schema({
     linkedinUrl: String,
     gabUrl: String,
     mindsUrl: String,
+    twitchUrl: String,
+    discordUrl: String,
     subscriberGoal: Number,
     btcGoal: Number,
     ethGoal: Number,

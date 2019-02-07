@@ -34,6 +34,8 @@ export async function GenerateProfile(req, res, next) {
             twitterUrl: '',
             youtubeUrl: '',
             linkedinUrl: '',
+            twitchUrl: '',
+            discordUrl: '',
             gabUrl: '',
             mindsUrl: '',
             subscriberGoal: 0,
@@ -242,6 +244,8 @@ export async function UpdateProfileLinks(req, res, next) {
                 linkedinUrl: req.body.linkedinUrl,
                 gabUrl: req.body.gabUrl,
                 mindsUrl: req.body.mindsUrl,
+                twitchUrl: req.body.twitchUrl,
+                discordUrl: req.body.discordUrl,
                 dateUpdated: Number(new Date()),
             },
         );
